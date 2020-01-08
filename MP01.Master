@@ -1,0 +1,464 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MP01.master.vb" Inherits="EasySapWeb.MP01" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html>
+<html>
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder runat="server" ID="script">
+    </asp:ContentPlaceHolder>
+
+    <title>Pinulito Plataforma Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="keywords" content="Pinulito, PINULITO, Pinulo, PINULO" />
+    <meta name="google-site-verification" content="4e4Rr63yVCeZYA_dMmjBNcQoenLiMLGN9azARUiP68Q" />
+	<meta charset="UTF-8">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/Pinulito.ico" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+	<style>
+		html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+	</style>
+    <style type="text/css">
+      .GridPager a,
+        .GridPager span {
+            display: inline-block;
+            padding: 0px 9px;
+            margin-right: 4px;
+            border-radius: 3px;
+            border: solid 1px #c0c0c0;
+            background: rgba(255,255,255, 1);
+            box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
+            font-size: .875em;
+            font-weight: bold;
+            text-decoration: none;
+            color: #717171;
+            text-shadow: 0px 1px 0px rgba(255,255,255, 1);
+        }
+
+        .GridPager a {
+            background-color: #f5f5f5;
+            color: #969696;
+            border: 1px solid #969696;
+        }
+
+        .GridPager span {
+            background: #616161;
+            box-shadow: inset 0px 0px 8px rgba(0,0,0, .5), 0px 1px 0px rgba(255,255,255, .8);
+            color: #f0f0f0;
+            text-shadow: 0px 0px 3px rgba(0,0,0, .5);
+            border: 1px solid #3AC0F2;
+        }
+    </style>
+</head>
+<body class="w3-light-grey" id="page-top" onbeforeunload="setHourglass();startup();prepareCanvas()" onunload="setHourglass();startup();prepareCanvas()" onload="updateClock(); setInterval('updateClock()', 1000 );startup();prepareCanvas()">
+
+<!-- Propiedades de ASP -->
+<form id="form2" runat="server">  
+<asp:ToolkitScriptManager ID="TS0" runat="server"></asp:ToolkitScriptManager>
+
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-red w3-large w3-text-white" style="z-index:4">
+  <div class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</div>
+  <span class="w3-bar-item w3-left w3-large">PINULITO<sup>web</sup></span>
+    <asp:LinkButton ID="BTNSALIR" runat="server" CssClass="w3-bar-item w3-right w3-large w3-hover-red w3-tag w3-transparent w3-text-white w3-round" Text="Cerrar sesión" ></asp:LinkButton>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;display:none" id="mySidebar">
+  <div class="w3-container w3-row w3-center w3-hide-small">
+    <div class="w3-col s12">
+      <a href="Dashboard.aspx"><img src="/images/LogoPinulitoNuevo_.png" class="w3-circle w3-margin-right" style="width:130px" /></a>
+    </div>
+  </div>
+  <div class="w3-container w3-row w3-center">
+      <div class="w3-col s12">
+          <!--Label ASP para mostrar al usuario que inicio sesion-->
+        <span class="w3-padding w3-tag w3-transparent w3-text-blue-grey"><strong>Usuario:</strong> <asp:Label ID="NombreUsuario" runat="server" Text="Sin Ingresar"></asp:Label></span>
+      </div>
+  </div>
+  <hr>
+  <!--Menu ASP a traves de una Literal , le HTML viene desde SQL SP Seguridad 1001-->
+    
+  <asp:UpdatePanel ID="UP0" runat="server" UpdateMode="Conditional" >
+	<ContentTemplate>
+		<asp:Panel ID="PMENU" runat="server" Visible="false">
+			<asp:Literal ID="L01" runat="server"></asp:Literal> 	
+		</asp:Panel>
+  </ContentTemplate>
+  </asp:UpdatePanel>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+<!-- Contenedor para las pagina anidada en la master page -->
+<div class="container-fluid">
+	<asp:HiddenField ID="HFCTY" runat="server" />
+		<asp:ContentPlaceHolder runat="server" ID="Contenido">
+
+		</asp:ContentPlaceHolder>
+	<asp:LinkButton ID="BTNHLP" runat="server" Text="Ayuda" Style="display: none"></asp:LinkButton>
+</div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-16 w3-light-grey w3-left">
+    <h6><i class="w3-hover-opacity "><b>Operador: </b><asp:Label ID="NombreOperador" runat="server" Text="Sin Ingresar"></asp:Label></i></h6>
+    <p>Create by <a href="https://www.facebook.com/profile.php?id=100009368338681" target="_blank">AGL</a></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+</form>
+
+</body>
+<script type="text/javascript">
+
+    function setHourglass() {
+        document.body.style.cursor = 'wait';
+    }
+
+    function Left(str, n) {
+        if (n <= 0)
+            return "";
+        else if (n > String(str).length)
+            return str;
+        else
+            return String(str).substring(0, n);
+    }
+
+    function Right(str, n) {
+        if (n <= 0)
+            return "";
+        else if (n > String(str).length)
+            return str;
+        else {
+            var iLen = String(str).length;
+            return String(str).substring(iLen, iLen - n);
+        }
+    }
+
+    function anularBotonDerecho() {
+        if (!window.event) return
+        if (event.button == 2) {
+            alert('Gracias por visitar el sistema de PROSERESA');
+        }
+    }
+
+    function Hora(Control) {
+        alert(getElementbyId('lblhora').value);
+        T = new Date()
+        Control.value = T.getDay() + '/' + T.getMonth() + '/' + T.getFullYear() + ' ' + T.getHours() + ':' + T.getMinutes() + ':' + T.getSeconds();
+        X = setTimeout(Hora(Control), 1000);
+    }
+
+    function enterToTab() {
+        if (event.keyCode == 13)
+            event.keyCode = 9;
+    }
+
+    function SelectAll(Grida, Checked, CbName) {
+        var i = 2
+        var cb
+        cb = document.getElementById(Grida + '_ctl' + Right('000' + i, 2) + '_' + CbName);
+        while (cb != null) {
+            cb.checked = Checked;
+            i++;
+            cb = document.getElementById(Grida + '_ctl' + Right('000' + i, 2) + '_' + CbName);
+        }
+    }
+
+    function kH(e) {
+        var pK = document.all ? window.event.keyCode : e.which;
+        return (pK != 39);
+    }
+
+    function doHourglass() {
+        document.body.style.cursor = 'wait';
+    }
+
+    function updateClock() {
+        var currentTime = new Date();
+        var currentHours = currentTime.getHours();
+        var currentMinutes = currentTime.getMinutes();
+        var currentSeconds = currentTime.getSeconds();
+        var currentDay = currentTime.getDate();
+        var currentMonth = currentTime.getMonth();
+        var Meses = new Array
+        Meses.push("Enero");
+        Meses.push("Febrero");
+        Meses.push("Marzo");
+        Meses.push("Abril");
+        Meses.push("Mayo");
+        Meses.push("Junio");
+        Meses.push("Julio");
+        Meses.push("Agosto");
+        Meses.push("Septiembre");
+        Meses.push("Octubre");
+        Meses.push("Noviembre");
+        Meses.push("Diciembre");
+        currentDay = (currentDay < 10 ? "0" : "") + currentDay + "-";
+        currentDay += Meses[currentMonth];
+        currentDay += "-" + currentTime.getFullYear();
+        currentMinutes = (currentMinutes < 10 ? "0" : "") + currentMinutes;
+        currentSeconds = (currentSeconds < 10 ? "0" : "") + currentSeconds;
+        var timeOfDay = (currentHours < 12) ? "AM" : "PM";
+        currentHours = (currentHours > 12) ? currentHours - 12 : currentHours;
+        currentHours = (currentHours == 0) ? 12 : currentHours;
+        var currentTimeString = currentDay + " " + currentHours + ":" + currentMinutes + ":" + currentSeconds + " " + timeOfDay;
+        document.getElementById("clock").firstChild.nodeValue = currentTimeString;
+    }
+
+    document.onkeypress = kH;
+
+    function mascara(d, sep, pat, nums) {
+        if (d.valant != d.value) {
+            val = d.value
+            largo = val.length
+            val = val.split(sep)
+            val2 = ''
+            for (r = 0; r < val.length; r++) {
+                val2 += val[r]
+            }
+            if (nums) {
+                for (z = 0; z < val2.length; z++) {
+                    if (isNaN(val2.charAt(z))) {
+                        letra = new RegExp(val2.charAt(z), "g")
+                        val2 = val2.replace(letra, "")
+                    }
+                }
+            }
+            val = ''
+            val3 = new Array()
+            for (s = 0; s < pat.length; s++) {
+                val3[s] = val2.substring(0, pat[s])
+                val2 = val2.substr(pat[s])
+            }
+            for (q = 0; q < val3.length; q++) {
+                if (q == 0) {
+                    val = val3[q]
+                }
+                else {
+                    if (val3[q] != "") {
+                        val += sep + val3[q]
+                    }
+                }
+            }
+            d.value = val
+            d.valant = val
+        }
+        if (val.length == 5) {
+            hora = val.split(":")
+            if ((hora[0] > 23) || (hora[1] > 59))
+                alert("Recuerde el formato de Horas, desde 00:00 hasta 23: 59 ")
+        }
+    }
+
+    /////////// firma ////////////////////////////////////////////////////////////////////////////
+    var ongoingTouches = new Array;
+
+    function colorForTouch(touch) {
+        var id = touch.identifier;
+        id = id.toString(16); // make it a hex digit
+        return "#" + id + id + id;
+    }
+
+    function ongoingTouchIndexById(idToFind) {
+        for (var i = 0; i < ongoingTouches.length; i++) {
+            var id = ongoingTouches[i].identifier;
+
+            if (id == idToFind) {
+                return i;
+            }
+        }
+        return -1;    // not found
+    }
+
+    function handleStart(evt) {
+        evt.preventDefault();
+        var el = document.getElementById("canvas");
+        var ctx = el.getContext("2d");
+        var touches = evt.changedTouches;
+
+        for (var i = 0; i < touches.length; i++) {
+            ongoingTouches.push(touches[i]);
+            var color = colorForTouch(touches[i]);
+            //ctx.fillStyle = color;
+            ctx.fillStyle = "#000";
+            ctx.fillRect(touches[i].pageX - 2, touches[i].pageY - 2, 4, 4);
+        }
+    }
+
+    function handleMove(evt) {
+        evt.preventDefault();
+        var el = document.getElementById("canvas");
+        var ctx = el.getContext("2d");
+        var touches = evt.changedTouches;
+
+        ctx.lineWidth = 4;
+
+        for (var i = 0; i < touches.length; i++) {
+            var color = colorForTouch(touches[i]);
+            var idx = ongoingTouchIndexById(touches[i].identifier);
+
+            //ctx.fillStyle = color;
+            ctx.fillStyle = "#000";
+            ctx.beginPath();
+            ctx.moveTo(ongoingTouches[idx].pageX, ongoingTouches[idx].pageY);
+            ctx.lineTo(touches[i].pageX, touches[i].pageY);
+            ctx.closePath();
+            ctx.stroke();
+            ongoingTouches.splice(idx, 1, touches[i]);  // swap in the new touch record
+        }
+    }
+
+    function handleEnd(evt) {
+        evt.preventDefault();
+        var el = document.getElementById("canvas");
+        var ctx = el.getContext("2d");
+        var touches = evt.changedTouches;
+
+        ctx.lineWidth = 4;
+
+        for (var i = 0; i < touches.length; i++) {
+            var color = colorForTouch(touches[i]);
+            var idx = ongoingTouchIndexById(touches[i].identifier);
+
+            //ctx.fillStyle = color;
+            ctx.fillStyle = "#000";
+            ctx.beginPath();
+            ctx.moveTo(ongoingTouches[i].pageX, ongoingTouches[i].pageY);
+            ctx.lineTo(touches[i].pageX, touches[i].pageY);
+            ongoingTouches.splice(i, 1);  // remove it; we're done
+        }
+    }
+
+    function handleCancel(evt) {
+        evt.preventDefault();
+        var touches = evt.changedTouches;
+
+        for (var i = 0; i < touches.length; i++) {
+            ongoingTouches.splice(i, 1);  // remove it; we're done
+        }
+    }
+
+
+    function startup() {
+        var el = document.getElementById("canvas");
+        el.addEventListener("touchstart", handleStart, false);
+        el.addEventListener("touchend", handleEnd, false);
+        el.addEventListener("touchcancel", handleCancel, false);
+        el.addEventListener("touchleave", handleEnd, false);
+        el.addEventListener("touchmove", handleMove, false);
+    }
+
+    var miLienzo; // el canvas
+    var contexto; // el contexto
+    var canvasLimites; // los margenes del canvas
+    var flagPaint = false; // nos dice si pintar o no
+    var actualPos; // la posición actual donde hice click
+
+    function prepareCanvas() {
+        miLienzo = document.getElementById("canvas");
+        contexto = miLienzo.getContext("2d"); // obtenemos el contexto ( dibujar en 2d)
+        canvasLimites = miLienzo.getBoundingClientRect(); // obtenemos los limites del canvas
+        miLienzo.addEventListener('mousedown', cambiarEstado, false);
+        miLienzo.addEventListener('mouseup', cambiarEstado, false);
+        miLienzo.addEventListener('mousemove', pintarLinea, false);
+        miLienzo.style.cursor = "hand";
+
+        borrador = document.getElementById("borrador");
+        borrador.addEventListener('click', erase, false);
+    }
+
+    function cambiarEstado() {
+        flagPaint = !flagPaint;
+        actualPos = obtenerCoordenadas(event);
+    }
+
+    function pintarLinea(event) {
+        if (flagPaint) {
+            var coordenadas = obtenerCoordenadas(event);
+            contexto.beginPath(); // comenzamos a dibujar
+            contexto.moveTo(actualPos.x, actualPos.y); // ubicamos el cursor en la posicion (10,10)
+            contexto.lineTo(coordenadas.x, coordenadas.y);
+            actualPos = {
+                x: coordenadas.x,
+                y: coordenadas.y
+            };
+            contexto.strokeStyle = "#000"; // color de la linea
+            contexto.stroke(); // dibujamos la linea
+        }
+    }
+
+    function obtenerCoordenadas(event) {
+        var posX;
+        var posY;
+
+        if (event.pageX || event.pageY) {
+            posX = event.pageX - canvasLimites.left;
+            posY = event.pageY - canvasLimites.top;
+        } else {
+            posX = event.clientX - canvasLimites.left;
+            posY = event.clientY - canvasLimites.top;
+        }
+
+        return {
+            x: posX,
+            y: posY
+        };
+    }
+    function erase() {
+        contexto.clearRect(0, 0, miLienzo.width, miLienzo.height);
+    }
+
+    function openCity(evt, cityName) {
+        var i, x, tablinks;
+        x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
+    }
+
+    /////codigo para el header o encabezado de la pagina
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    function myAccFunc(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-red";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-red", "");
+      }
+    }
+
+</script>
+</html>
+
+​
