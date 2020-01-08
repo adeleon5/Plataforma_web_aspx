@@ -1,0 +1,226 @@
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.Resources.resources
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+W:\Dropbox\Proyectos\Roy\EasySapWeb\bin\EasySapWeb.dll
+W:\Dropbox\Proyectos\Roy\EasySapWeb\bin\EasySapWeb.pdb
+W:\Dropbox\Proyectos\Roy\EasySapWeb\bin\EasySapWeb.xml
+W:\Dropbox\Proyectos\Roy\EasySapWeb\bin\AjaxMin.dll
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.dll
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.xml
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.pdb
+W:\Dropbox\Proyectos\Roy\EasySapWeb\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\EasySapWeb\bin\EasySapWeb.dll
+C:\inetpub\wwwroot\EasySapWeb\bin\EasySapWeb.pdb
+C:\inetpub\wwwroot\EasySapWeb\bin\EasySapWeb.xml
+C:\inetpub\wwwroot\EasySapWeb\bin\AjaxMin.dll
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.Resources.resources
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.dll
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.xml
+C:\inetpub\wwwroot\EasySapWeb\obj\Debug\EasySapWeb.pdb
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.dll
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.pdb
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.xml
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\AjaxMin.dll
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.dll
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.xml
+C:\Users\VIASA-003\Documents\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.dll.config
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\AjaxMin.dll
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\bin\stdole.dll
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\SYPSA\PROYECTOS VISUAL ESTUDIO\DESP\PROYECTOS\FUENTES DE PLATAFORMA WEB DE PRUEBAS\obj\Debug\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\EasySapWeb.dll.config
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\AjaxMin.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\bin\stdole.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\Plataforma Web SYPSA\obj\Debug\EasySapWeb.pdb
+E:\Plataforma Web SYPSA\bin\EasySapWeb.dll.config
+E:\Plataforma Web SYPSA\bin\EasySapWeb.dll
+E:\Plataforma Web SYPSA\bin\EasySapWeb.pdb
+E:\Plataforma Web SYPSA\bin\EasySapWeb.xml
+E:\Plataforma Web SYPSA\bin\AjaxMin.dll
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.Resources.resources
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CopyComplete
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.dll
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.xml
+E:\Plataforma Web SYPSA\obj\Debug\EasySapWeb.pdb
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\bin\EasySapWeb.dll.config
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\bin\EasySapWeb.dll
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\bin\EasySapWeb.pdb
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\bin\EasySapWeb.xml
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\bin\AjaxMin.dll
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.dll
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.xml
+C:\Users\Luis Pineda\Desktop\proyectos\Plataforma Web SYPSA\obj\Debug\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\EasySapWeb.dll.config
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\AjaxMin.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\bin\stdole.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.dll
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.xml
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.pdb
+C:\Users\Sistemas 2\Documents\Visual Studio 2013\Projects\SYPSA PLATAFORMA WEB W3\Plataforma Web SYPSA\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\bin\EasySapWeb.dll.config
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\bin\EasySapWeb.dll
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\bin\EasySapWeb.pdb
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\bin\EasySapWeb.xml
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\bin\AjaxMin.dll
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.vbprojResolveAssemblyReference.cache
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.Resources.resources
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.vbproj.GenerateResource.Cache
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.dll
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.xml
+D:\Users\SProyectos\Documents\Visual Studio 2013\Projects\Easy_Sap_Web\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\EasySapWeb.dll.config
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\AjaxMin.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\bin\stdole.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Easy_Sap_Web\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\EasySapWeb.dll.config
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\AjaxMin.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\bin\stdole.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Plataforma_Web\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\EasySapWeb.dll.config
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\AjaxMin.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\bin\stdole.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\EasySapWeb.dll.config
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\AjaxMin.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\bin\stdole.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V2\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\EasySapWeb.dll.config
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\AjaxMin.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.CrystalReports.Design.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportSource.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.Shared.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.Web.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\stdole.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.vbproj.CoreCompileInputs.cache
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.pdb
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\Newtonsoft.Json.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\System.Net.Http.Formatting.dll
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\Newtonsoft.Json.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\bin\System.Net.Http.Formatting.xml
+C:\Users\pilo_\Documents\Visual Studio 2017\Projects\SYPSA PLATAFORMA WEB W3\Pinulito_Web V3\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\EasySapWeb.dll.config
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\EasySapWeb.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\EasySapWeb.pdb
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\EasySapWeb.xml
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\AjaxMin.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\Newtonsoft.Json.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\System.Net.Http.Formatting.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\stdole.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\Newtonsoft.Json.xml
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\bin\System.Net.Http.Formatting.xml
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.dll
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.xml
+C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.pdb
