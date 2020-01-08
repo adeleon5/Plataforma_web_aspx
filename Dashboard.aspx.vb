@@ -13,7 +13,7 @@ Public Class Prueba
             Exit Sub
         End If
         DdBind(DDLEMPRESA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  100", "ID", "EMPRESA")
-        StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
+        'StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
     End Sub
 
     Private Sub BTNHF_Click(sender As Object, e As EventArgs) Handles BTNHF.Click
