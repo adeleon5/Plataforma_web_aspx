@@ -224,3 +224,32 @@ C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\
 C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.dll
 C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.xml
 C:\Users\RM\Documents\Visual Studio 2017\Web_Pinulito\Pinulito_Web V3\obj\Debug\EasySapWeb.pdb
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\EasySapWeb.dll.config
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\EasySapWeb.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\EasySapWeb.pdb
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\EasySapWeb.xml
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\AjaxMin.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\Newtonsoft.Json.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\System.Net.Http.Formatting.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\stdole.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\Newtonsoft.Json.xml
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\bin\System.Net.Http.Formatting.xml
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.vbprojAssemblyReference.cache
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.Resources.resources
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.vbproj.GenerateResource.cache
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.vbproj.CopyComplete
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.dll
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.xml
+C:\Users\RM\Documents\Visual Studio 2017\Plataforma_Web_Aspx\obj\Debug\EasySapWeb.pdb

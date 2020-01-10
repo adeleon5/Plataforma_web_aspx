@@ -23,6 +23,8 @@ Module Funciones
     Public Sim As String
     Public StringJason As String
     Public ValidarModal As String
+    Public ModalActivo As String
+    Public StringJasonH As String
 
 
     Public Function Security(ByVal UNI, ByVal USR) As Boolean

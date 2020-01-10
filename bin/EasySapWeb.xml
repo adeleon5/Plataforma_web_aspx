@@ -955,227 +955,254 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:EasySapWeb.Bitacora._UP0">
 <summary>
-Control UP0.
+UP0 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._HF01">
 <summary>
-Control HF01.
+HF01 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._P0">
 <summary>
-Control P0.
+P0 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTDEL">
 <summary>
-Control TXTDEL.
+TXTDEL control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTAL">
 <summary>
-Control TXTAL.
+TXTAL control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._BTNFLT">
 <summary>
-Control BTNFLT.
+BTNFLT control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._GVBIT">
 <summary>
-Control GVBIT.
+GVBIT control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._ADDNEW">
 <summary>
-Control ADDNEW.
+ADDNEW control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._DDLEMPRESABITACORA">
 <summary>
-Control DDLEMPRESABITACORA.
+DDLEMPRESABITACORA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Bitacora._DDLTIENDABITACORA">
+<summary>
+DDLTIENDABITACORA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Bitacora._DDLEMPLEADOBITACORA">
+<summary>
+DDLEMPLEADOBITACORA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Bitacora._DDLCATALOGOBITACORA">
+<summary>
+DDLCATALOGOBITACORA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTSOL">
 <summary>
-Control TXTSOL.
+TXTSOL control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTDES">
 <summary>
-Control TXTDES.
+TXTDES control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._BTNADDACT">
 <summary>
-Control BTNADDACT.
+BTNADDACT control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._P2">
 <summary>
-Control P2.
+P2 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._LTESTADO">
 <summary>
-Control LTESTADO.
+LTESTADO control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._CLOSEACT">
 <summary>
-Control CLOSEACT.
+CLOSEACT control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._L02">
 <summary>
-Control L02.
+L02 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._ADDSEG">
 <summary>
-Control ADDSEG.
+ADDSEG control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._BTNCANCELARSEGUIMIENTO">
 <summary>
-Control BTNCANCELARSEGUIMIENTO.
+BTNCANCELARSEGUIMIENTO control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._LTNOACTIVIDAD">
 <summary>
-Control LTNOACTIVIDAD.
+LTNOACTIVIDAD control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTSOL1">
 <summary>
-Control TXTSOL1.
+TXTSOL1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTDESC1">
 <summary>
-Control TXTDESC1.
+TXTDESC1 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._BTNPROCESARSEGUIMIENTO">
 <summary>
-Control BTNPROCESARSEGUIMIENTO.
+BTNPROCESARSEGUIMIENTO control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._LTNOACTIVIDAD_">
 <summary>
-Control LTNOACTIVIDAD_.
+LTNOACTIVIDAD_ control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._TXTCOMENTCIERRE">
 <summary>
-Control TXTCOMENTCIERRE.
+TXTCOMENTCIERRE control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Bitacora._BTNCERRARACTIVIDAD">
 <summary>
-Control BTNCERRARACTIVIDAD.
+BTNCERRARACTIVIDAD control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Calendario_TDS._UP0">
@@ -5338,56 +5365,56 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:EasySapWeb.Prueba._TXTFECHAINI">
 <summary>
-Control TXTFECHAINI.
+TXTFECHAINI control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Prueba._DDLEMPRESA">
 <summary>
-Control DDLEMPRESA.
+DDLEMPRESA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Prueba._BTNHF">
 <summary>
-Control BTNHF.
+BTNHF control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Prueba._lblempresa">
 <summary>
-Control lblempresa.
+lblempresa control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Prueba._lblfecha">
 <summary>
-Control lblfecha.
+lblfecha control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Prueba._lbldiasemana">
 <summary>
-Control lbldiasemana.
+lbldiasemana control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.PwdChange._UP0">
@@ -5662,119 +5689,119 @@ To modify move field declaration from designer file to code-behind file.
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._UP0">
 <summary>
-Control UP0.
+UP0 control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._DDLREPORTE">
 <summary>
-Control DDLREPORTE.
+DDLREPORTE control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._DDLEMPRESA">
 <summary>
-Control DDLEMPRESA.
+DDLEMPRESA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._DDLTIENDA">
 <summary>
-Control DDLTIENDA.
+DDLTIENDA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._TXTFECHADOCTO">
 <summary>
-Control TXTFECHADOCTO.
+TXTFECHADOCTO control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._BTNGO">
 <summary>
-Control BTNGO.
+BTNGO control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._P_IMAGENES">
 <summary>
-Control P_IMAGENES.
+P_IMAGENES control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._GVREP">
 <summary>
-Control GVREP.
+GVREP control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._P_DOCTOENCA">
 <summary>
-Control P_DOCTOENCA.
+P_DOCTOENCA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._GVDOCTOENCA">
 <summary>
-Control GVDOCTOENCA.
+GVDOCTOENCA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._P_DOCTODETA">
 <summary>
-Control P_DOCTODETA.
+P_DOCTODETA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._GVDOCTODETA">
 <summary>
-Control GVDOCTODETA.
+GVDOCTODETA control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Digitacion._BTNEXPORT">
 <summary>
-Control BTNEXPORT.
+BTNEXPORT control.
 </summary>
 <remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 <member name="F:EasySapWeb.Rpt_Docs._UP0">

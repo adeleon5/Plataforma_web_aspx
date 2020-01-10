@@ -79,5 +79,10 @@
         <Triggers>
             <asp:PostBackTrigger ControlID="BTNEXPORT" />
         </Triggers>
-    </asp:UpdatePanel>
+        
+   </asp:UpdatePanel>
+    <p id="demo"></p>
+    <script>
+        document.getElementById("demo").innerHTML = "<div class=embed-responsive embed-responsive-16by9><iframe class=embed-responsive-item src=http://190.106.203.34:9098/api/download?id=25 allowfullscreen></iframe</div>";
+    </script>
 </asp:Content>

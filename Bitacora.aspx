@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/MP01.Master" CodeBehind="Bitacora.aspx.vb" Inherits="EasySapWeb.Bitacora" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <asp:UpdatePanel ID="UP0" runat="server">
         <ContentTemplate>
             <div class="w3-container">
@@ -44,15 +44,27 @@
                         </header>
                         <div class="w3-container">
                         <div class="w3-row">
+                            <table>
+                            <td><div class="w3-col s12 w3-padding">
+                                <asp:DropDownList runat="server" ID="DDLEMPRESABITACORA" CssClass="w3-input w3-border w3-white w3-round" AutoPostBack="true"> </asp:DropDownList>
+                            </div></td>
+                            <td><div class="w3-col s12 w3-padding">
+                                <asp:DropDownList runat="server" ID="DDLTIENDABITACORA" CssClass="w3-input w3-border w3-white w3-round" AutoPostBack="true"> </asp:DropDownList>
+                            </div></td>
+                            <td><div class="w3-col s12 w3-padding">
+                                <asp:DropDownList runat="server" ID="DDLEMPLEADOBITACORA" CssClass="w3-input w3-border w3-white w3-round" AutoPostBack="true"> </asp:DropDownList>
+                            </div></td>
+                             </table>
                             <div class="w3-col s12 w3-padding">
-                                <asp:DropDownList ID="DDLEMPRESABITACORA" runat="server" CssClass="w3-input w3-border w3-white w3-round" AutoPostBack="true" Enabled="true" ></asp:DropDownList>
+                                <asp:DropDownList runat="server" ID="DDLCATALOGOBITACORA" CssClass="w3-input w3-border w3-white w3-round"> </asp:DropDownList>
                             </div>
                             <div class="w3-col s12 w3-padding">
-                                <asp:TextBox ID="TXTSOL" runat="server" CssClass="w3-input w3-border w3-white w3-round" Autofocus="true" Enabled="true" ></asp:TextBox>
+                                <asp:TextBox ID="TXTSOL" runat="server" CssClass="w3-input w3-border w3-white w3-round" Enabled="true" PlaceHolder="TÍTULO"></asp:TextBox>
                             </div>
                             <div class="w3-col s12 w3-padding">
-                                <asp:TextBox ID="TXTDES" runat="server" CssClass="w3-input w3-border w3-white w3-round" TextMode="MultiLine" Rows="10"></asp:TextBox>
+                                <asp:TextBox ID="TXTDES" runat="server" CssClass="w3-input w3-border w3-white w3-round" TextMode="MultiLine" Rows="10" PlaceHolder="CONCEPTO" ></asp:TextBox>
                             </div>
+                            
                         </div>
                         </div>
                         <footer class="w3-container w3-yellow w3-padding">

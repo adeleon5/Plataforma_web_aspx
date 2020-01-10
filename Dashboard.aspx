@@ -4,7 +4,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Contenido" runat="server">
     <asp:TextBox runat="server" ID="TXTFECHAINI" TextMode="Date" CssClass="w3-input w3-border w3-light-grey w3-round"></asp:TextBox>
     <asp:DropDownList ID="DDLEMPRESA" runat="server" CssClass="w3-input w3-border w3-light-grey w3-round"></asp:DropDownList>
-    <asp:Button runat="server" ID="BTNHF" Text="click HF" />
+    <asp:Button runat="server" ID="BTNHF" Text="GENERAR" CssClass="w3-button w3-round w3-red w3-hover-blue-gray w3-left w3-mobile"/>
+    <br />
 <div class="container">
     <div class="row">
         <div class="w3-content">
@@ -88,7 +89,7 @@
 <script>
     var hoy = new Date();
     var dd = hoy.getDate();
-    var mm = hoy.getMonth()+1;
+    var mm = hoy.getMonth() + 1;
     var yyyy = hoy.getFullYear();
     var fecha = yyyy.toString() + mm.toString() + dd.toString();
 
@@ -102,31 +103,31 @@
     var hasta = 0;
 
 
-    function mostrarLista(desde,hasta){
+    function mostrarLista(desde, hasta) {
         var lista = '';
-        for (var i = desde; i < hasta; i++){
+        for (var i = desde; i < hasta; i++) {
             var fila = '';
             fila += "<tr>";
-            fila += "<td>"+json[i].TIENDA+"</td>";
-            fila += "<td>"+json[i].TDA_NOMBRE+"</td>";
+            fila += "<td>" + json[i].TIENDA + "</td>";
+            fila += "<td>" + json[i].TDA_NOMBRE + "</td>";
             fila += "<td>" + json[i].SAT_ESTABLECIMIENTO + "</td>";
             fila += "<td>" + json[i].PROMEDIO + "</td>";
             fila += "<td>" + json[i].VENTADELDIA + "</td>";
             fila += "<td>" + json[i].PORC_VENTAS + "</td>";
-            fila += "<td>"+json[i].CRITERIOS+"</td>";
+            fila += "<td>" + json[i].CRITERIOS + "</td>";
             fila += "</tr>";
             lista += fila;
         }
         $('#listado').html(lista);
     }
 
-    function mostrarLista_0(desde,hasta){
+    function mostrarLista_0(desde, hasta) {
         var lista = '';
-        for (var i = desde; i < hasta; i++){
+        for (var i = desde; i < hasta; i++) {
             var fila = '';
             fila += "<tr>";
-            fila += "<td>" + json_0[i].TIENDA+"</td>";
-            fila += "<td>" + json_0[i].TDA_NOMBRE+"</td>";
+            fila += "<td>" + json_0[i].TIENDA + "</td>";
+            fila += "<td>" + json_0[i].TDA_NOMBRE + "</td>";
             fila += "<td>" + json_0[i].SEIS + "</td>";
             fila += "<td>" + json_0[i].SIETE + "</td>";
             fila += "<td>" + json_0[i].OCHO + "</td>";
@@ -143,7 +144,7 @@
             fila += "<td>" + json_0[i].DIEZYNUEVE + "</td>";
             fila += "<td>" + json_0[i].VEINTE + "</td>";
             fila += "<td>" + json_0[i].VEINTEYUNO + "</td>";
-            fila += "<td>" + json_0[i].VEINTEYDOS+"</td>";
+            fila += "<td>" + json_0[i].VEINTEYDOS + "</td>";
             fila += "</tr>";
             lista += fila;
         }
@@ -166,11 +167,11 @@
 
     function display() {
         document.getElementById('<%=lblempresa.ClientID %>').innerHTML = json[0].NOM_EMPRESA;
-        document.getElementById('<%=lbldiasemana.ClientID %>').innerHTML= traducirdia(json[5].DIA_SEMANA);
+        document.getElementById('<%=lbldiasemana.ClientID %>').innerHTML = traducirdia(json[5].DIA_SEMANA);
     };
 
     function LlenarTabla() {
-         mostrarLista(offset, hasta);
+        mostrarLista(offset, hasta);
         mostrarLista_0(desde, totales_0);
     };
 
@@ -181,8 +182,8 @@
     }
 
     function Inicializar() {
-        json = <%=GetJasonString()%>;
-        <%-- json_0 = <%=GetJsonData(2, fechahoy)%>;--%>
+        json = <%=GetJasonString("1")%>;
+        json_0 = <%=GetJasonString("2")%>;
         totales = json.length;
         totales_0 = json_0.length;
         offset = 0;
@@ -191,69 +192,66 @@
     }
 
     $(document).ready(function () {
-        //mostrarLista(offset, hasta);
-        //mostrarLista_0(desde, totales_0);
-        //LlenarTabla();
 
         $('#example').DataTable({
-        dom: 'Bfrtip',
-        lengthMenu: [
-            [ 10, 25, 50, -1 ],
-            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
-        ],
-        buttons: [
-            'pageLength','copy', {
-                extend: 'excel',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
-                messageBottom: 'Create by AGL'
-            }, {
-                extend: 'pdf',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
-                messageBottom : 'Create by AGL'
-            }, {
-                extend: 'print',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+            dom: 'Bfrtip',
+            lengthMenu: [
+                [10, 25, 50, -1],
+                ['10 rows', '25 rows', '50 rows', 'Show all']
+            ],
+            buttons: [
+                'pageLength', 'copy', {
+                    extend: 'excel',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+                    messageBottom: 'Create by AGL'
+                }, {
+                    extend: 'pdf',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+                    messageBottom: 'Create by AGL'
+                }, {
+                    extend: 'print',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
                 }
             ],
-        "language": {
-        "lengthMenu": "Ver _MENU_ registros por página",
-        "zeroRecords": "No hay registros disponibles",
-        "info": "Página _PAGE_ de _PAGES_",
-        "infoEmpty": "No hay registros validos",
-        "infoFiltered": "(filtered from _MAX_ total records)"
-        }
+            "language": {
+                "lengthMenu": "Ver MENU registros por página",
+                "zeroRecords": "No hay registros disponibles",
+                "info": "Página PAGE de PAGES",
+                "infoEmpty": "No hay registros validos",
+                "infoFiltered": "(filtered from MAX total records)"
+            }
         });
 
         $('#example_0').DataTable({
-        dom: 'Bfrtip',
-        lengthMenu: [
-            [ 10, 25, 50, -1 ],
-            [ '10 rows', '25 rows', '50 rows', 'Show all' ]
-        ],
-        buttons: [
-            'pageLength','copy', {
-                extend: 'excel',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
-                messageBottom: 'Create by AGL'
-            }, {
-                extend: 'pdf',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
-                messageBottom : 'Create by AGL'
-            }, {
-                extend: 'print',
-                messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+            dom: 'Bfrtip',
+            lengthMenu: [
+                [10, 25, 50, -1],
+                ['10 rows', '25 rows', '50 rows', 'Show all']
+            ],
+            buttons: [
+                'pageLength', 'copy', {
+                    extend: 'excel',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+                    messageBottom: 'Create by AGL'
+                }, {
+                    extend: 'pdf',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
+                    messageBottom: 'Create by AGL'
+                }, {
+                    extend: 'print',
+                    messageTop: 'Tabla de ventas con porcentaje sobre promedio, según día de la semana',
                 }
             ],
-        "language": {
-        "lengthMenu": "Ver _MENU_ registros por página",
-        "zeroRecords": "No hay registros disponibles",
-        "info": "Página _PAGE_ de _PAGES_",
-        "infoEmpty": "No hay registros validos",
-        "infoFiltered": "(filtered from _MAX_ total records)"
-        }
+            "language": {
+                "lengthMenu": "Ver MENU registros por página",
+                "zeroRecords": "No hay registros disponibles",
+                "info": "Página PAGE de PAGES",
+                "infoEmpty": "No hay registros validos",
+                "infoFiltered": "(filtered from MAX total records)"
+            }
         });
-} );
-    
+    });
+
 </script>
 
 </asp:Content>

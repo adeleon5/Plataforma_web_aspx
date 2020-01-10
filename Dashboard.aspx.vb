@@ -13,11 +13,14 @@ Public Class Prueba
             Exit Sub
         End If
         DdBind(DDLEMPRESA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  100", "ID", "EMPRESA")
-        'StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
+        StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
+        StringJasonH = GetJsonData(2, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM por hora
+
     End Sub
 
     Private Sub BTNHF_Click(sender As Object, e As EventArgs) Handles BTNHF.Click
         StringJason = GetJsonData(1, CDate(TXTFECHAINI.Text).ToString("yyyyMMdd"), DDLEMPRESA.SelectedValue.ToString)
+        StringJasonH = GetJsonData(2, CDate(TXTFECHAINI.Text).ToString("yyyyMMdd"), DDLEMPRESA.SelectedValue.ToString)
     End Sub
 
     Function GetJsonData(ByRef opc As Integer, ByRef fecha As String, ByRef empresa As String) As String
@@ -26,10 +29,10 @@ Public Class Prueba
 
     Private Function ConectarAPI(ByRef opc As Integer, ByRef fecha As String, ByRef empresa As String) As String
         Dim SP As String = ""
-        If opc = 1 Then
+        If opc = 1 Then 'Ventas por dia
             SP = "PRG_APP_GESTION_ARCHIVO%20111,%20" + empresa + ",%20" + fecha + ",%200,%201"
-        ElseIf opc = 2 Then
-            SP = "PRG_APP_GESTION_ARCHIVO%20112,%201,%20" + fechahoy
+        ElseIf opc = 2 Then 'Ventas por hora
+            SP = "PRG_APP_GESTION_ARCHIVO%20112,%20" + empresa + ",%20" + fecha
         End If
 
         Dim URLAPI As String = "http://190.106.203.34:9098/api/jsondata?sp=" + SP
@@ -49,9 +52,17 @@ Public Class Prueba
         ScriptManager.RegisterStartupScript(Me, GetType(Page), "alerta", script, True)
     End Sub
 
-    Function GetJasonString() As String
-        Return StringJason
+    Function GetJasonString(ByRef opc As String) As String
+        Dim resultado As String = ""
+        If opc = "1" Then
+            resultado = StringJason
+        ElseIf opc = "2" Then
+            resultado = StringJasonH
+        End If
+        Return resultado
     End Function
+
+
 
     Private Sub Prueba_LoadComplete(sender As Object, e As EventArgs) Handles Me.LoadComplete
         If IsPostBack Then

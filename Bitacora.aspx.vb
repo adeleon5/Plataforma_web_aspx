@@ -3,11 +3,11 @@
 
     Private Sub Bitacora_Load(sender As Object, e As EventArgs) Handles Me.Load
         If IsPostBack Then
-            mensaje(ValidarModal)
+            If ModalActivo = "S" Then
+                ScriptManager.RegisterStartupScript(Me, GetType(Page), "Display", "document.getElementById('id03').style.display='block'", True)
+            End If
             Exit Sub
         End If
-        ValidarModal = "N"
-        mensaje(ValidarModal)
         GridBind(GVBIT, "EXEC PRG_BITACORA 1,'" & Session.Item("UCO") & "'", "", {"CODIGO"})
         DdBind(DDLEMPRESABITACORA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  100", "ID", "EMPRESA")
         HF01.Value = "0"
@@ -28,6 +28,8 @@
         HF01.Value = "0"
         TXTSOL.Text = ""
         TXTDES.Text = ""
+        ModalActivo = "N"
+        ScriptManager.RegisterStartupScript(Me, GetType(Page), "Display", "document.getElementById('id03').style.display='none'", True)
         P0.Visible = True
         GVBIT.DataBind()
         GVBIT.SelectedIndex = -1
@@ -116,7 +118,11 @@
     End Sub
 
     Private Sub DDLEMPRESABITACORA_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DDLEMPRESABITACORA.SelectedIndexChanged
-        ValidarModal = "S"
-        mensaje("paso por aquí")
+        ModalActivo = "S"
+        DdBind(DDLTIENDABITACORA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  101" + ",'" + DDLEMPRESABITACORA.SelectedValue.ToString + "'", "ID", "TIENDA")
+    End Sub
+
+    Private Sub DDLTIENDABITACORA_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DDLTIENDABITACORA.SelectedIndexChanged
+        DdBind(DDLEMPLEADOBITACORA, "EXEC [PRG_KPI_DASHBOARD_NOMINA]  1" + ",'" + DDLEMPRESABITACORA.SelectedValue.ToString + "','" + DDLTIENDABITACORA.SelectedValue.ToString + "'", "CODIGO", "RESULTADO")
     End Sub
 End Class
