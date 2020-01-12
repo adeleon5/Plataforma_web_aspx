@@ -25,6 +25,7 @@ Module Funciones
     Public ValidarModal As String
     Public ModalActivo As String
     Public StringJasonH As String
+    Public ImgDocto As String
 
 
     Public Function Security(ByVal UNI, ByVal USR) As Boolean

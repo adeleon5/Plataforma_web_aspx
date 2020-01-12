@@ -1,4 +1,6 @@
-﻿Public Class Rpt_Digitacion
+﻿Imports System.IO
+Imports System.Drawing
+Public Class Rpt_Digitacion
     Inherits base
 
     Private Sub Rpt_Digitacion_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -22,7 +24,9 @@
             P_DOCTOENCA.Visible = False
             P_DOCTODETA.Visible = False
             P_IMAGENES.Visible = True
+            P_DOCTOENCA.Visible = True
             GridBind(GVREP, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  102, '" & DDLEMPRESA.SelectedValue.ToString() & "','" & DDLTIENDA.SelectedValue.ToString & "','" & CDate(TXTFECHADOCTO.Text).ToString("yyyyMMdd") & "'", "", {"IdEmpresa", "IdSucursal", "NombreSucursal"})
+            GridBind(GVDOCTOENCA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO] 103,'" & DDLEMPRESA.SelectedValue.ToString() & "','" & DDLTIENDA.SelectedValue.ToString & "','" & CDate(TXTFECHADOCTO.Text).ToString("yyyyMMdd") & "'", "", {"IdEmpresa", "IdSucursal", "NombreSucursal"})
         Else
             P_IMAGENES.Visible = False
             P_DOCTOENCA.Visible = True
@@ -79,7 +83,18 @@
     End Sub
 
     Private Sub GVREP_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GVREP.SelectedIndexChanged
-        PaginaNueva("http://190.106.203.34:9098/api/download?id=" & GVREP.SelectedRow.Cells(0).Text)
+        'PaginaNueva("http://190.106.203.34:9098/api/download?id=" & GVREP.SelectedRow.Cells(0).Text)
+        Dim DSLocal As DataSet
+        DSLocal = ObtieneRS("EXEC DB_WEB..PRG_APP_GESTION_ARCHIVO 7,'" & GVREP.SelectedRow.Cells(0).Text & "'")
+        For Each fila As DataRow In DSLocal.Tables(0).Rows()
+            ImgDocto = fila(1).ToString()
+        Next
+        IMGDOCTO_.ImageUrl = Convert.ToString("data:image/jpg;base64,") & ImgDocto
     End Sub
+
+    Function GetImgDocto() As String
+        Dim img As String = """" + "<img src=\'\data:image/jpg;base64, " + CStr(IMGDOCTO) + "\'\ onerror=\'\alert(1)\'\>" + """"
+        Return img
+    End Function
 
 End Class

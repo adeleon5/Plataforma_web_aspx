@@ -77,6 +77,15 @@ Partial Public Class Rpt_Digitacion
     Protected WithEvents P_IMAGENES As Global.System.Web.UI.WebControls.Panel
 
     '''<summary>
+    '''IMGDOCTO_ control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents IMGDOCTO_ As Global.System.Web.UI.WebControls.Image
+
+    '''<summary>
     '''GVREP control.
     '''</summary>
     '''<remarks>
@@ -84,24 +93,6 @@ Partial Public Class Rpt_Digitacion
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents GVREP As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''P_DOCTOENCA control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents P_DOCTOENCA As Global.System.Web.UI.WebControls.Panel
-
-    '''<summary>
-    '''GVDOCTOENCA control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents GVDOCTOENCA As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''P_DOCTODETA control.
@@ -129,4 +120,22 @@ Partial Public Class Rpt_Digitacion
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents BTNEXPORT As Global.System.Web.UI.WebControls.ImageButton
+
+    '''<summary>
+    '''P_DOCTOENCA control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents P_DOCTOENCA As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''GVDOCTOENCA control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GVDOCTOENCA As Global.System.Web.UI.WebControls.GridView
 End Class

@@ -13,8 +13,8 @@ Public Class Prueba
             Exit Sub
         End If
         DdBind(DDLEMPRESA, "EXEC DB_WEB.[dbo].[PRG_APP_GESTION_ARCHIVO]  100", "ID", "EMPRESA")
-        StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
-        StringJasonH = GetJsonData(2, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM por hora
+        'StringJason = GetJsonData(1, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM
+        'StringJasonH = GetJsonData(2, fechahoy, "1") 'para el inicio de la página cargo los datos de CORPORACION RM por hora
 
     End Sub
 

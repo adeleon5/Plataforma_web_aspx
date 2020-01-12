@@ -5750,27 +5750,18 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
+<member name="F:EasySapWeb.Rpt_Digitacion._IMGDOCTO_">
+<summary>
+IMGDOCTO_ control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:EasySapWeb.Rpt_Digitacion._GVREP">
 <summary>
 GVREP control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:EasySapWeb.Rpt_Digitacion._P_DOCTOENCA">
-<summary>
-P_DOCTOENCA control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:EasySapWeb.Rpt_Digitacion._GVDOCTOENCA">
-<summary>
-GVDOCTOENCA control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -5798,6 +5789,24 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:EasySapWeb.Rpt_Digitacion._BTNEXPORT">
 <summary>
 BTNEXPORT control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Rpt_Digitacion._P_DOCTOENCA">
+<summary>
+P_DOCTOENCA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Rpt_Digitacion._GVDOCTOENCA">
+<summary>
+GVDOCTOENCA control.
 </summary>
 <remarks>
 Auto-generated field.

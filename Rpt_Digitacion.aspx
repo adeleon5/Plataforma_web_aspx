@@ -44,23 +44,23 @@
         </div>
         <div class="w3-container w3-row-padding w3-responsive" style="overflow-y:scroll; min-height:300px">
             <asp:Panel runat="server" ID="P_IMAGENES">
-                <asp:GridView ID="GVREP" runat="server" Width="100%" CssClass="w3-table-all w3-small" 
-                    AllowPaging="False" AllowSorting="False" 
-                    AutoGenerateColumns="False"
-                    RowStyle-CssClass="normal"
-                    AlternatingRowStyle-CssClass="alternate">                
-                </asp:GridView>
+                <div class="w3-row">
+                    <a onclick="myFunction()">Rotar 90 grados derecha</a>
+                    <div id="divImg" class="w3-col s6">
+                        <asp:Image runat="server" ID="IMGDOCTO_" alt="Lights" style="width:100%" CssClass="w3-animate-zoom"/>
+                    </div>
+                    <div class="w3-col s6">
+                        <asp:GridView ID="GVREP" runat="server" Width="100%" CssClass="w3-table-all w3-small" 
+                            AllowPaging="False" AllowSorting="False" 
+                            AutoGenerateColumns="False"
+                            RowStyle-CssClass="normal"
+                            AlternatingRowStyle-CssClass="alternate">                
+                        </asp:GridView>
+                    </div>
+                </div>
             </asp:Panel>
             <br />
-            <asp:Panel runat="server" ID="P_DOCTOENCA" Visible="false">
-                <asp:GridView ID="GVDOCTOENCA" runat="server" Width="100%" CssClass="w3-table-all w3-small" 
-                AllowPaging="False" AllowSorting="False" 
-                AutoGenerateColumns="False"
-                RowStyle-CssClass="normal"
-                AlternatingRowStyle-CssClass="alternate"  
-                >                
-                </asp:GridView>
-            </asp:Panel>
+            
             <br />
             <asp:Panel runat="server" ID="P_DOCTODETA" Visible="false">
                 <asp:GridView ID="GVDOCTODETA" runat="server" Width="100%" CssClass="w3-table-all w3-small" 
@@ -79,10 +79,54 @@
         <Triggers>
             <asp:PostBackTrigger ControlID="BTNEXPORT" />
         </Triggers>
-        
    </asp:UpdatePanel>
-    <p id="demo"></p>
-    <script>
-        document.getElementById("demo").innerHTML = "<div class=embed-responsive embed-responsive-16by9><iframe class=embed-responsive-item src=http://190.106.203.34:9098/api/download?id=25 allowfullscreen></iframe</div>";
-    </script>
+
+    <div class="w3-container">
+  <h2>Tabs in a Grid</h2>
+
+  <div class="w3-row">
+    <a href="javascript:void(0)" onclick="openCity(event, 'Envio');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Envios de Pollo</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Paris</div>
+    </a>
+    <a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
+      <div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">Tokyo</div>
+    </a>
+  </div>
+
+  <div id="Envio" class="w3-container city" style="display:none">
+    <h2>Envios de Avícola Guadalupe</h2>
+        <asp:Panel runat="server" ID="P_DOCTOENCA" Visible="false">
+            <asp:GridView ID="GVDOCTOENCA" runat="server" Width="100%" CssClass="w3-table-all w3-small" 
+            AllowPaging="False" AllowSorting="False" 
+            AutoGenerateColumns="False"
+            RowStyle-CssClass="normal"
+            AlternatingRowStyle-CssClass="alternate"  
+            >                
+            </asp:GridView>
+        </asp:Panel>
+  </div>
+
+  <div id="Paris" class="w3-container city" style="display:none">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p> 
+  </div>
+
+  <div id="Tokyo" class="w3-container city" style="display:none">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
+</div>
+<script>
+    function myFunction() {
+        // Code for Safari
+        document.getElementById("divImg").style.WebkitTransform = "rotate(90deg)";
+        // Code for IE9
+        document.getElementById("divImg").style.msTransform = "rotate(90deg)";
+        // Standard syntax
+        document.getElementById("divImg").style.transform = "rotate(90deg)";
+    }
+</script>
 </asp:Content>
