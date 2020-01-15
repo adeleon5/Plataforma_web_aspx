@@ -1828,6 +1828,7 @@
     <Content Include="vendor\jquery\jquery.min.js" />
     <Content Include="vendor\jquery\jquery.slim.js" />
     <Content Include="vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Ventas_Conciliacion.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -2208,6 +2209,13 @@
     </Compile>
     <Compile Include="Tickets_Estadistica.aspx.vb">
       <DependentUpon>Tickets_Estadistica.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Ventas_Conciliacion.aspx.designer.vb">
+      <DependentUpon>Ventas_Conciliacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas_Conciliacion.aspx.vb">
+      <DependentUpon>Ventas_Conciliacion.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
