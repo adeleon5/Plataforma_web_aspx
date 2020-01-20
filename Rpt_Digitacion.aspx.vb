@@ -50,24 +50,6 @@ Public Class Rpt_Digitacion
 
     End Sub
 
-    Protected Sub BTNEXPORT_Click(sender As Object, e As ImageClickEventArgs) Handles BTNEXPORT.Click
-        'If GVREP.Rows.Count > 0 Then
-        '    ExportToExcel(Replace(Replace(TXTPREP.SelectedItem.Text, " ", "_", 1), "/", "_", 1) & ".xls", GVREP)
-        'End If
-    End Sub
-
-    Private Sub ExportToExcel(ByVal strFileName As String, ByVal dg As GridView)
-        'Response.Clear()
-        'Response.AddHeader("content-disposition", "attachment;filename=" & strFileName)
-        'Response.Charset = ""
-        'Response.ContentType = "application/vnd.ms-excel"
-        'Dim oStringWriter As New System.IO.StringWriter
-        'Dim oHtmlTextWriter As New System.Web.UI.HtmlTextWriter(oStringWriter)
-        'dg.RenderControl(oHtmlTextWriter)
-        'Response.Write(oStringWriter.ToString())
-        'Response.End()
-    End Sub
-
     Public Overrides Sub VerifyRenderingInServerForm(control As Control)
         'MyBase.VerifyRenderingInServerForm(control)
     End Sub
@@ -97,4 +79,13 @@ Public Class Rpt_Digitacion
         Return img
     End Function
 
+    Private Sub btnpanelopciones_Click(sender As Object, e As EventArgs) Handles btnpanelopciones.Click
+        id01.Visible = True
+        btnpanelopciones.Visible = False
+    End Sub
+
+    Private Sub SP01_Click(sender As Object, e As EventArgs) Handles SP01.Click
+        id01.Visible = False
+        btnpanelopciones.Visible = True
+    End Sub
 End Class

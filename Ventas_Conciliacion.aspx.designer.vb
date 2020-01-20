@@ -21,4 +21,22 @@ Partial Public Class Ventas_Conciliacion
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents SQLDETCONCILIACION As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''PANELORDENCOMPRA control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents PANELORDENCOMPRA As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''GVDETCONCILIACION control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents GVDETCONCILIACION As Global.System.Web.UI.WebControls.GridView
 End Class

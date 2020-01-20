@@ -5687,9 +5687,27 @@ Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
-<member name="F:EasySapWeb.Rpt_Digitacion._UP0">
+<member name="F:EasySapWeb.Rpt_Digitacion._btnpanelopciones">
 <summary>
-UP0 control.
+btnpanelopciones control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Rpt_Digitacion._id01">
+<summary>
+id01 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Rpt_Digitacion._SP01">
+<summary>
+SP01 control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -5780,15 +5798,6 @@ To modify move field declaration from designer file to code-behind file.
 <member name="F:EasySapWeb.Rpt_Digitacion._GVDOCTODETA">
 <summary>
 GVDOCTODETA control.
-</summary>
-<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member>
-<member name="F:EasySapWeb.Rpt_Digitacion._BTNEXPORT">
-<summary>
-BTNEXPORT control.
 </summary>
 <remarks>
 Auto-generated field.
@@ -7242,6 +7251,33 @@ Control BTNEXPORT.
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Ventas_Conciliacion._SQLDETCONCILIACION">
+<summary>
+SQLDETCONCILIACION control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Ventas_Conciliacion._PANELORDENCOMPRA">
+<summary>
+PANELORDENCOMPRA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:EasySapWeb.Ventas_Conciliacion._GVDETCONCILIACION">
+<summary>
+GVDETCONCILIACION control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
 </remarks>
 </member>
 </members>

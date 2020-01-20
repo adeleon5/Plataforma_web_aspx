@@ -14,13 +14,31 @@ Option Explicit On
 Partial Public Class Rpt_Digitacion
 
     '''<summary>
-    '''UP0 control.
+    '''btnpanelopciones control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents UP0 As Global.System.Web.UI.UpdatePanel
+    Protected WithEvents btnpanelopciones As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''id01 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents id01 As Global.System.Web.UI.WebControls.Panel
+
+    '''<summary>
+    '''SP01 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents SP01 As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
     '''DDLREPORTE control.
@@ -111,15 +129,6 @@ Partial Public Class Rpt_Digitacion
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents GVDOCTODETA As Global.System.Web.UI.WebControls.GridView
-
-    '''<summary>
-    '''BTNEXPORT control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents BTNEXPORT As Global.System.Web.UI.WebControls.ImageButton
 
     '''<summary>
     '''P_DOCTOENCA control.
