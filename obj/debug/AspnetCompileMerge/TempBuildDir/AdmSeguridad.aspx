@@ -12,10 +12,9 @@
                     <asp:Panel ID="P0" runat="server" Visible="true">
                         <div class="w3-container">
                             <div class="w3-bar">
-                                <button class="w3-bar-item w3-button w3-dark-grey w3-mobile" style="width:25%"><a href="Menu.aspx" class="w3-text-white" >Regresar Al Menu</a></button>
-                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:25%"><asp:LinkButton ID="BTNADDUSR" runat="server" Text="Agregar Usuario" cssclass="w3-text-white" ></asp:LinkButton></button>
-                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:25%"> <asp:LinkButton ID="BTNADDMNU" runat="server" Text="Editar Menú" class="w3-text-white"></asp:LinkButton></button>
-                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:25%"> <asp:LinkButton ID="BTNEDIPER" runat="server" Text="Editar Perfiles" class="w3-text-white"></asp:LinkButton></button>
+                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:33.33%"><asp:LinkButton ID="BTNADDUSR" runat="server" Text="Agregar Usuario" cssclass="w3-text-white" ></asp:LinkButton></button>
+                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:33.33%"> <asp:LinkButton ID="BTNADDMNU" runat="server" Text="Editar Menú" class="w3-text-white"></asp:LinkButton></button>
+                                <button class="w3-bar-item w3-button w3-red w3-mobile" style="width:33.33%"> <asp:LinkButton ID="BTNEDIPER" runat="server" Text="Editar Perfiles" class="w3-text-white"></asp:LinkButton></button>
                             </div>
                          </div>
                       <br />
@@ -167,6 +166,7 @@
                 </div>   
             </asp:Panel>
             <asp:Panel ID="PP04" runat="server" Visible="false" CssClass="Pop" >
+            <form>
                 <h2>Agregar Pantalla / Carpeta</h2>
                 <label for="TXTPANT">Nombre Pantalla (ej abc.aspx)</label>
                 <asp:TextBox ID="TXTPANTN" runat="server" CssClass="TextBox1" AUTOFOCUS="true" ToolTip="Deje en blanco si va a agregar una Carpeta"></asp:TextBox>
@@ -179,6 +179,7 @@
                     <asp:LinkButton ID="BTNADDMENU" runat="server" CssClass="TopMenu" Text="Guardar"></asp:LinkButton>
                     <asp:LinkButton ID="BTNCANMENU" runat="server" CssClass="TopMenu" Text="Cancelar"></asp:LinkButton>
                 </div>
+            </form>
             </asp:Panel>
             <asp:Panel ID="P2" runat="server" Visible="false" >
                 <asp:Panel ID="P2_1" runat="server" Visible="true">

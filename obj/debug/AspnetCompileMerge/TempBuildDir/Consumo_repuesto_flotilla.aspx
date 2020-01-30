@@ -129,8 +129,8 @@
                                     CssClass="table table-bordered bs-table">
                                     <HeaderStyle BackColor="#337ab7" Font-Bold="True" ForeColor="White" />
                                        <Columns>
-                                           <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" />
-                                           <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
+                                           <asp:CommandField ShowDeleteButton="True" ShowEditButton="True" ButtonType="Image" DeleteImageUrl="~/images/DEL.gif" EditImageUrl="~/images/EDIT.gif" UpdateImageUrl="~/images/UPD.gif" CancelImageUrl="~/images/CANCEL.gif" />
+                                           <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" Visible="False" />
                                            <asp:BoundField DataField="DocEntry" HeaderText="DocEntry" SortExpression="DocEntry" Visible="False" />
                                            <asp:BoundField DataField="LineId" HeaderText="LineId" SortExpression="LineId" Visible="False" />
                                            <asp:BoundField DataField="NoParte" HeaderText="NoParte" SortExpression="NoParte" ReadOnly="True" />
@@ -187,7 +187,7 @@
                     <div class="w3-container">
                         <div class="row">
                             <div class="col-sm-6">
-                                <asp:LinkButton ID="BTNADD" runat="server" class="w3-button w3-block w3-green" Text="Guardar"></asp:LinkButton>
+                                <asp:LinkButton ID="BTNADD" runat="server" class="w3-button w3-block w3-red" Text="Guardar"></asp:LinkButton>
                             </div>
                             <div class="col-sm-6">
                                 <asp:LinkButton ID="BTNCANHS" runat="server" class="w3-button w3-block w3-red" OnClientClick="return confirm('Cancelar Cambios?');" Text="Cancelar"></asp:LinkButton>

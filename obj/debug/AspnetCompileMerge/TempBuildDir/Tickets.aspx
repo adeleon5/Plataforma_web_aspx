@@ -3,10 +3,6 @@
     <asp:UpdatePanel ID="UP0" runat="server">
         <ContentTemplate>
             <asp:Panel ID="P0" runat="server" Visible="true">
-                <div class="MenuBar">
-                    <a href="Menu.aspx" target="_self" class="TopMenu">Regresar</a>
-                </div>
-                <br />
                 <h1 class="h1azul">Mis Tickets</h1>
                 <br /><br />
                 <asp:GridView ID="GVTCK" runat="server" CssClass="grid-view" 

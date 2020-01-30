@@ -23,11 +23,11 @@
                         </tr>
                         <tr>
                             <td>Del</td>
-                            <td><asp:TextBox ID="TXTDEL" runat="server" TextMode="Date" CssClass="TextboxF" required autofocus ></asp:TextBox></td>
+                            <td><asp:TextBox ID="TXTDEL" runat="server" TextMode="Date" CssClass="TextboxF" ></asp:TextBox></td>
                         </tr>
                         <tr>
                             <td>Al</td>
-                            <td><asp:TextBox ID="TXTAL" runat="server" TextMode="Date" CssClass="TextboxF" required ></asp:TextBox></td> 
+                            <td><asp:TextBox ID="TXTAL" runat="server" TextMode="Date" CssClass="TextboxF"></asp:TextBox></td> 
                         </tr>
                         <tr>
                             <td colspan="2"><asp:LinkButton ID="BTNGO" runat="server" CssClass="TopMenu100" Text="Generar"></asp:LinkButton><br />

@@ -2146,7 +2146,7 @@
     </Compile>
     <Compile Include="Rpt_Digitacion.aspx.vb">
       <DependentUpon>Rpt_Digitacion.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Rpt_Docs.aspx.designer.vb">
       <DependentUpon>Rpt_Docs.aspx</DependentUpon>
@@ -2245,7 +2245,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
-    <None Include="My Project\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="My Project\PublishProfiles\Prinulito Web V1.pubxml" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>

@@ -1,25 +1,29 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MP01.master.vb" Inherits="EasySapWeb.MP01" %>
-<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="asp" %>
-
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html>
 <head id="Head1" runat="server">
-    <title>SP WEB</title>
-    <link rel="shortcut icon" type="image/x-icon" href="/sp.ico" />
-	<meta name="keywords" content="sypsa, SYPSA, Sistemas y proyectos,plataforma sypsa"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="HandheldFriendly" content="True"/>
-    <meta name="MobileOptimized" content="320"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link href="Content/bootstrap.cosmo.min.css" rel="stylesheet" />  
+    <asp:ContentPlaceHolder runat="server" ID="script">
+    </asp:ContentPlaceHolder>
+
+    <title>Pinulito Plataforma Web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="keywords" content="Pinulito, PINULITO, Pinulo, PINULO" />
+    <meta name="google-site-verification" content="4e4Rr63yVCeZYA_dMmjBNcQoenLiMLGN9azARUiP68Q" />
+	<meta charset="UTF-8">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="/Pinulito.ico" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+	<style>
+		html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+	</style>
     <style type="text/css">
-      .hiddencol
-      {
-        display: none;
-      }
       .GridPager a,
         .GridPager span {
             display: inline-block;
@@ -27,7 +31,7 @@
             margin-right: 4px;
             border-radius: 3px;
             border: solid 1px #c0c0c0;
-            background: #e9e9e9;
+            background: rgba(255,255,255, 1);
             box-shadow: inset 0px 1px 0px rgba(255,255,255, .8), 0px 1px 3px rgba(0,0,0, .1);
             font-size: .875em;
             font-weight: bold;
@@ -50,58 +54,77 @@
             border: 1px solid #3AC0F2;
         }
     </style>
-    <asp:ContentPlaceHolder runat="server" ID="script">
-
-    </asp:ContentPlaceHolder>
-    <style>
-        #canvas {
-          border:solid black 1px;
-        }
-    </style>
 </head>
+<body class="w3-light-grey" id="page-top" onbeforeunload="setHourglass();startup();prepareCanvas()" onunload="setHourglass();startup();prepareCanvas()" onload="updateClock(); setInterval('updateClock()', 1000 );startup();prepareCanvas()">
+
+<!-- Propiedades de ASP -->
+<form id="form2" runat="server">  
+<asp:ToolkitScriptManager ID="TS0" runat="server"></asp:ToolkitScriptManager>
 
 
-<body onbeforeunload="setHourglass();startup();prepareCanvas()" onunload="setHourglass();startup();prepareCanvas()" onload="updateClock(); setInterval('updateClock()', 1000 );startup();prepareCanvas()">
-<form id="form2" runat="server">
-    <asp:ToolkitScriptManager ID="TS0" runat="server"></asp:ToolkitScriptManager>
-<!-- Header -->
-<header class="w3-container w3-red w3-center w3-padding-16" id="myHeader">
-  <div class="w3-center">
-  <h4>PLATAFORMA WEB</h4>
-  <h1 class="w3-xxxlarge w3-animate-bottom">SISTEMAS Y PROYECTOS</h1>
-   
-  </div>
-</header>
-
-<!-- Container -->
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-container">
-    <asp:HiddenField ID="HFCTY" runat="server" />
-        <asp:ContentPlaceHolder runat="server" ID="Contenido">
-        </asp:ContentPlaceHolder>
-    <asp:LinkButton ID="BTNHLP" runat="server" Text="Ayuda" style="Display:none" ></asp:LinkButton>
-  </div>
+<!-- Top container -->
+<div class="w3-bar w3-top w3-red w3-large w3-text-white" style="z-index:4">
+  <div class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</div>
+  <span class="w3-bar-item w3-left w3-large">PINULITO<sup>web</sup></span>
+    <asp:LinkButton ID="BTNSALIR" runat="server" CssClass="w3-bar-item w3-right w3-large w3-hover-red w3-tag w3-transparent w3-text-white w3-round" Text="Cerrar sesión" ></asp:LinkButton>
 </div>
 
-
-<!-- Footer -->
-<footer class="w3-container w3-center w3-padding-16 w3-opacity ">
-    <div class="w3-large w3-padding-32" >
-        <i class="w3-hover-opacity">Usuario: <asp:Label ID="NombreUsuario" runat="server" Text="Sin Ingresar"></asp:Label> </i>
-        <i class="w3-hover-opacity ">Operador: <asp:Label ID="NombreOperador" runat="server" Text="Sin Ingresar"></asp:Label> </i>
-        <i class="w3-hover-opacity "><span id="clock" /> </i>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;display:none" id="mySidebar">
+  <div class="w3-container w3-row w3-center w3-hide-small">
+    <div class="w3-col s12">
+      <a href="Dashboard.aspx"><img src="/images/LogoPinulitoNuevo_.png" class="w3-circle w3-margin-right" style="width:130px" /></a>
     </div>
-  
-</footer>
-      <%--<img src="data:image/png;base64,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" alt="Logo SP"/>--%>
-</form>
-</body>
+  </div>
+  <div class="w3-container w3-row w3-center">
+      <div class="w3-col s12">
+          <!--Label ASP para mostrar al usuario que inicio sesion-->
+        <span class="w3-padding w3-tag w3-transparent w3-text-blue-grey"><strong>Usuario:</strong> <asp:Label ID="NombreUsuario" runat="server" Text="Sin Ingresar"></asp:Label></span>
+      </div>
+  </div>
+  <hr>
+  <!--Menu ASP a traves de una Literal , le HTML viene desde SQL SP Seguridad 1001-->
+    
+  <asp:UpdatePanel ID="UP0" runat="server" UpdateMode="Conditional" >
+	<ContentTemplate>
+		<asp:Panel ID="PMENU" runat="server" Visible="false">
+			<asp:Literal ID="L01" runat="server"></asp:Literal> 	
+		</asp:Panel>
+  </ContentTemplate>
+  </asp:UpdatePanel>
+</nav>
 
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+<!-- Contenedor para las pagina anidada en la master page -->
+<div class="container-fluid">
+	<asp:HiddenField ID="HFCTY" runat="server" />
+		<asp:ContentPlaceHolder runat="server" ID="Contenido">
+
+		</asp:ContentPlaceHolder>
+	<asp:LinkButton ID="BTNHLP" runat="server" Text="Ayuda" Style="display: none"></asp:LinkButton>
+</div>
+
+  <!-- Footer -->
+  <footer class="w3-content w3-padding-16 w3-light-grey w3-left">
+    <h6><i class="w3-hover-opacity "><b>Operador: </b><asp:Label ID="NombreOperador" runat="server" Text="Sin Ingresar"></asp:Label></i></h6>
+    <p>Create by <a href="https://www.facebook.com/profile.php?id=100009368338681" target="_blank">AGL</a></p>
+  </footer>
+
+  <!-- End page content -->
+</div>
+</form>
+
+</body>
 <script type="text/javascript">
 
-	function setHourglass(){
-		document.body.style.cursor = 'wait';
-	}
+    function setHourglass() {
+        document.body.style.cursor = 'wait';
+    }
 
     function Left(str, n) {
         if (n <= 0)
@@ -158,10 +181,10 @@
         return (pK != 39);
     }
 
-	function doHourglass(){
-		document.body.style.cursor = 'wait';
-	}
-	
+    function doHourglass() {
+        document.body.style.cursor = 'wait';
+    }
+
     function updateClock() {
         var currentTime = new Date();
         var currentHours = currentTime.getHours();
@@ -259,7 +282,7 @@
         return -1;    // not found
     }
 
-    function handleStart(evt) { 
+    function handleStart(evt) {
         evt.preventDefault();
         var el = document.getElementById("canvas");
         var ctx = el.getContext("2d");
@@ -328,7 +351,7 @@
     }
 
 
-    function startup() { 
+    function startup() {
         var el = document.getElementById("canvas");
         el.addEventListener("touchstart", handleStart, false);
         el.addEventListener("touchend", handleEnd, false);
@@ -398,17 +421,44 @@
     }
 
     function openCity(evt, cityName) {
-      var i, x, tablinks;
-      x = document.getElementsByClassName("city");
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < x.length; i++) {
-         tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
-      }
-      document.getElementById(cityName).style.display = "block";
-      evt.currentTarget.firstElementChild.className += " w3-border-red";
+        var i, x, tablinks;
+        x = document.getElementsByClassName("city");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-border-red", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.firstElementChild.className += " w3-border-red";
     }
+
+    /////codigo para el header o encabezado de la pagina
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    function myAccFunc(id) {
+      var x = document.getElementById(id);
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-red";
+      } else { 
+        x.className = x.className.replace(" w3-show", "");
+        x.previousElementSibling.className = 
+        x.previousElementSibling.className.replace(" w3-red", "");
+      }
+    }
+
 </script>
 </html>
+
+​
