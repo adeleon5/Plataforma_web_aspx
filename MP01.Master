@@ -63,7 +63,7 @@
 
 
 <!-- Top container -->
-<div class="w3-bar w3-top w3-red w3-large w3-text-white" style="z-index:4">
+<div class="w3-bar w3-top w3-green w3-large w3-text-white" style="z-index:4">
   <div class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</div>
   <span class="w3-bar-item w3-left w3-large">PINULITO<sup>web</sup></span>
     <asp:LinkButton ID="BTNSALIR" runat="server" CssClass="w3-bar-item w3-right w3-large w3-hover-red w3-tag w3-transparent w3-text-white w3-round" Text="Cerrar sesión" ></asp:LinkButton>
