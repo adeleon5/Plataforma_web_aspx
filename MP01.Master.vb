@@ -79,7 +79,7 @@ Partial Public Class MP01
             Da.Dispose()
         Catch Ex As Exception
             mensaje(Ex.Message)
-            Exit Sub ''salir de la función o metodo
+
         End Try
         nD.Dispose()
     End Sub
