@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class AdmSeguridad
-    
+
     '''<summary>
     '''Control UP0.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents UP0 As Global.System.Web.UI.UpdatePanel
-    
+
     '''<summary>
     '''Control HF01.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HF01 As Global.System.Web.UI.WebControls.HiddenField
-    
+
     '''<summary>
     '''Control P0.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P0 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control BTNADDUSR.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNADDUSR As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNADDMNU.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNADDMNU As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNEDIPER.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNEDIPER As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control GVUSR.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVUSR As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control P1.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P1 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control LP1.
     '''</summary>
@@ -93,7 +93,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LP1 As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Control GVEDUS.
     '''</summary>
@@ -102,7 +102,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVEDUS As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control GVPRE.
     '''</summary>
@@ -111,7 +111,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVPRE As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control TXTPENOM.
     '''</summary>
@@ -120,7 +120,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTPENOM As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTPETIP.
     '''</summary>
@@ -129,7 +129,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTPETIP As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control TXTPEVAL.
     '''</summary>
@@ -138,7 +138,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTPEVAL As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control BTNADDPE.
     '''</summary>
@@ -147,7 +147,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNADDPE As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control GVPERUS.
     '''</summary>
@@ -156,7 +156,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVPERUS As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control BTNBCKP1.
     '''</summary>
@@ -165,7 +165,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNBCKP1 As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNSAVUS.
     '''</summary>
@@ -174,7 +174,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNSAVUS As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNRESTA.
     '''</summary>
@@ -183,7 +183,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNRESTA As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control PP01.
     '''</summary>
@@ -192,7 +192,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents PP01 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control HFPUP.
     '''</summary>
@@ -201,7 +201,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HFPUP As Global.System.Web.UI.WebControls.HiddenField
-    
+
     '''<summary>
     '''Control LBLVALOR.
     '''</summary>
@@ -210,7 +210,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLVALOR As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control TXTVAL.
     '''</summary>
@@ -219,7 +219,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTVAL As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTSEL.
     '''</summary>
@@ -228,7 +228,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTSEL As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control BTNOKPOPUP.
     '''</summary>
@@ -237,7 +237,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNOKPOPUP As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control BTNCANCELPOPUP.
     '''</summary>
@@ -246,7 +246,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNCANCELPOPUP As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control PP02.
     '''</summary>
@@ -255,7 +255,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents PP02 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control HF02.
     '''</summary>
@@ -264,7 +264,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HF02 As Global.System.Web.UI.WebControls.HiddenField
-    
+
     '''<summary>
     '''Control TXTNOM.
     '''</summary>
@@ -273,7 +273,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTNOM As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTEMA.
     '''</summary>
@@ -282,7 +282,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTEMA As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTCODEMPSAP.
     '''</summary>
@@ -291,7 +291,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTCODEMPSAP As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control LBLERRMNW.
     '''</summary>
@@ -300,7 +300,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLERRMNW As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control BTNSAVNEW.
     '''</summary>
@@ -309,7 +309,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNSAVNEW As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control BTNCANNEW.
     '''</summary>
@@ -318,7 +318,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNCANNEW As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control PP03.
     '''</summary>
@@ -327,7 +327,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents PP03 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control HFPADRE.
     '''</summary>
@@ -336,7 +336,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents HFPADRE As Global.System.Web.UI.WebControls.HiddenField
-    
+
     '''<summary>
     '''Control LBLNODO.
     '''</summary>
@@ -345,7 +345,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLNODO As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control GVMENU.
     '''</summary>
@@ -354,7 +354,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVMENU As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control BTNMNUANT.
     '''</summary>
@@ -363,7 +363,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNMNUANT As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNMNUADD.
     '''</summary>
@@ -372,7 +372,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNMNUADD As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNMNUCAN.
     '''</summary>
@@ -381,7 +381,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNMNUCAN As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control PP04.
     '''</summary>
@@ -390,7 +390,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents PP04 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control TXTPANTN.
     '''</summary>
@@ -399,7 +399,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTPANTN As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTPANTD.
     '''</summary>
@@ -408,7 +408,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTPANTD As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control LBLNMERR.
     '''</summary>
@@ -417,7 +417,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLNMERR As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control BTNADDMENU.
     '''</summary>
@@ -426,7 +426,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNADDMENU As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNCANMENU.
     '''</summary>
@@ -435,7 +435,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNCANMENU As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control P2.
     '''</summary>
@@ -444,7 +444,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P2 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control P2_1.
     '''</summary>
@@ -453,7 +453,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P2_1 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control BTNBCKPER.
     '''</summary>
@@ -462,7 +462,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNBCKPER As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control GVPER.
     '''</summary>
@@ -471,7 +471,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVPER As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control BTNADDPER.
     '''</summary>
@@ -480,7 +480,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNADDPER As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control P2_2.
     '''</summary>
@@ -489,7 +489,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P2_2 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control TXTNOMPER.
     '''</summary>
@@ -498,7 +498,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTNOMPER As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control TXTDESPER.
     '''</summary>
@@ -507,7 +507,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents TXTDESPER As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control LBLERR22.
     '''</summary>
@@ -516,7 +516,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLERR22 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control BTNREP22.
     '''</summary>
@@ -525,7 +525,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNREP22 As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNREP23.
     '''</summary>
@@ -534,7 +534,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNREP23 As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control P2_3.
     '''</summary>
@@ -543,7 +543,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents P2_3 As Global.System.Web.UI.WebControls.Panel
-    
+
     '''<summary>
     '''Control LP2_3.
     '''</summary>
@@ -552,7 +552,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LP2_3 As Global.System.Web.UI.WebControls.Literal
-    
+
     '''<summary>
     '''Control GVACC.
     '''</summary>
@@ -561,7 +561,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents GVACC As Global.System.Web.UI.WebControls.GridView
-    
+
     '''<summary>
     '''Control LBLERR23.
     '''</summary>
@@ -570,7 +570,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents LBLERR23 As Global.System.Web.UI.WebControls.Label
-    
+
     '''<summary>
     '''Control BTNBCKP23.
     '''</summary>
@@ -579,7 +579,7 @@ Partial Public Class AdmSeguridad
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents BTNBCKP23 As Global.System.Web.UI.WebControls.LinkButton
-    
+
     '''<summary>
     '''Control BTNDELP23.
     '''</summary>
