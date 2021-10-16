@@ -31,6 +31,7 @@ Partial Public Class MP01
     End Sub
 
     Private Sub BTNSALIR_Click(sender As Object, e As EventArgs) Handles BTNSALIR.Click
+        'Este codigo carga el menu al cache
         Session.Clear()
         Cache.Remove("Menu")
         Response.Redirect("Login_new.aspx")
